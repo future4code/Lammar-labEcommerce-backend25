@@ -1,0 +1,23 @@
+{
+  "name": "lammar-labecommerce-backend25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/future4code/Lammar-labEcommerce-backend25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/future4code/Lammar-labEcommerce-backend25/issues"
+  },
+  "homepage": "https://github.com/future4code/Lammar-labEcommerce-backend25#readme",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
+}
