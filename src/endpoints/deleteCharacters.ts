@@ -3,7 +3,7 @@ import connection from "../connection";
 
 
 
-export default async function createCharacters(
+export default async function deleteCharacters(
     req: Request,
     res: Response
 ): Promise<void> { try{
@@ -13,7 +13,7 @@ export default async function createCharacters(
     await connection("character")
     .delete()
     .where({id})
-    res.status(200).end()
+    res.status(201).end()
   
 }catch (error) {
   res.status(500).end("Unexpected serve error")
